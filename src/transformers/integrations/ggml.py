@@ -139,7 +139,7 @@ GGUF_CONFIG_MAPPING = {
         "embedding_length": "hidden_size",
         "rope.dimension_count": None,
         "rope.freq_base": "rope_theta",
-        "attention.head_count": "num_attention_heads",
+        "attention.head_count": "num_attention_heads",``
         "attention.head_count_kv": "num_key_value_heads",
         "attention.layer_norm_rms_epsilon": "rms_norm_eps",
         "vocab_size": "vocab_size",
@@ -167,6 +167,7 @@ GGUF_CONFIG_MAPPING = {
         "attention.head_count_kv": "num_key_value_heads",
         "attention.layer_norm_rms_epsilon": "rms_norm_eps",
         "vocab_size": "vocab_size",
+        "something":"something",
     },
     "tokenizer": {
         "ggml.bos_token_id": "bos_token_id",
